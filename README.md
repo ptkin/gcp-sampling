@@ -18,7 +18,7 @@ And the integration steps are as follows:
 
 The key parameters are as follows:
 
-* `adaptive_sampling_mode`: It indicates the adaptive sampling method, including uniform sampling (0), class-based sampling (1~100), class-pair-based sampling (101~200), etc.
+* `adaptive_sampling_mode`: It indicates the adaptive sampling method, including uniform sampling (0), class-based sampling (1-100), class-pair-based sampling (101-200), etc.
 * `utility_function_mode`: It controls what classes we preferentially want to select in the adaptive process. For example, we can prioritize difficult pairs (101), simple pairs (102), or uncertain pairs (103).
 * `tau`: The weight discounting parameter, which controls the speed of "forgetting".
 * `alpha`: The scaling factor for the impact of the current prediction, which controls the speed of "updating".
